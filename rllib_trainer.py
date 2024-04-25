@@ -6,8 +6,6 @@ import pandas as pd
 
 import ray
 from ray.tune.registry import register_env
-from ray.rllib.agents import ppo
-from ray.rllib.models import ModelCatalog
 from ray import tune
 
 from env.StockTradingEnvironment import StockTradingEnvironment
